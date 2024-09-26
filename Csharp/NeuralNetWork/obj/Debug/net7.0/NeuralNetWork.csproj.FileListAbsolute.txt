@@ -1,0 +1,15 @@
+F:\vsc_project\c#\Csharp\NeuralNetWork\bin\Debug\net7.0\NeuralNetWork.exe
+F:\vsc_project\c#\Csharp\NeuralNetWork\bin\Debug\net7.0\NeuralNetWork.deps.json
+F:\vsc_project\c#\Csharp\NeuralNetWork\bin\Debug\net7.0\NeuralNetWork.runtimeconfig.json
+F:\vsc_project\c#\Csharp\NeuralNetWork\bin\Debug\net7.0\NeuralNetWork.dll
+F:\vsc_project\c#\Csharp\NeuralNetWork\bin\Debug\net7.0\NeuralNetWork.pdb
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.csproj.AssemblyReference.cache
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.GeneratedMSBuildEditorConfig.editorconfig
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.AssemblyInfoInputs.cache
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.AssemblyInfo.cs
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.csproj.CoreCompileInputs.cache
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.dll
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\refint\NeuralNetWork.dll
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.pdb
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\NeuralNetWork.genruntimeconfig.cache
+F:\vsc_project\c#\Csharp\NeuralNetWork\obj\Debug\net7.0\ref\NeuralNetWork.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WPjecOkftkcS3KP35Njj5Vf9RVL9bBXR47bI4+k8U6MottAbv2SxGFgFv6Mv/XxgocelZ0yNsl/10AdEL6I22Q==",
+  "success": true,
+  "projectFilePath": "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2333\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\2333\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.3\\microsoft.netcore.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "C:\\Users\\2333\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.3.nupkg.sha512",
+    "C:\\Users\\2333\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x64.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
