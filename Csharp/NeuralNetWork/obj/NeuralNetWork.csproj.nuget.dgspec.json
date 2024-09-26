@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj": {}
+    "f:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj": {}
   },
   "projects": {
-    "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj": {
+    "f:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj",
+        "projectUniqueName": "f:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj",
         "projectName": "NeuralNetWork",
-        "projectPath": "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj",
+        "projectPath": "f:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\NeuralNetWork.csproj",
         "packagesPath": "C:\\Users\\2333\\.nuget\\packages\\",
-        "outputPath": "F:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\obj\\",
+        "outputPath": "f:\\vsc_project\\c#\\Csharp\\NeuralNetWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2333\\AppData\\Roaming\\NuGet\\NuGet.Config",
