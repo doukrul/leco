@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-/// <summary>
-/// Dictionary:c#中的一种泛型集合,用来存储键值对(hash)
-/// </summary>
 public class RandomizedSet
 {
     private Random random;
@@ -64,8 +61,7 @@ public class RandomizedSet
 
     public int GetRandom()
     {
-        int randomIndex = random.Next(1, list.Count);
-
+        int randomIndex = random.Next(0, list.Count);
         return list[randomIndex];
     }
 }
