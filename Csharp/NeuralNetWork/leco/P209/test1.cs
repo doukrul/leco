@@ -1,6 +1,7 @@
 public class SolutionP209test1
 {
-    //双层循环时间复杂度O(n)
+    //双层循环时间复杂度O(n),数据量过大时超出时间限制,直接不能运行
+
     public int MinSubArrayLen(int target, int[] nums)
     {
         int result = int.MaxValue;
