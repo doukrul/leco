@@ -2,7 +2,7 @@ using System.Text;
 public class SolutionP3test1 {
     public int LengthOfLongestSubstring(string s)
     {
-        //滑动窗口
+        //暴力
         int result = 0;
         int sublength = 0;
         int subi=0;
@@ -19,8 +19,7 @@ public class SolutionP3test1 {
             else
             {
                 result = Math.Max(result, sb.Length);i=i-sb.Length;
-                sb.Clear();
-                
+                sb.Clear(); 
             }
         }
         result = Math.Max(result, sb.Length);
