@@ -4,9 +4,6 @@ public class SolutionP3test1 {
     {
         //暴力
         int result = 0;
-        int sublength = 0;
-        int subi=0;
-
         //子串
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.Length; i++)

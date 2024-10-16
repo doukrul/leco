@@ -2,6 +2,5 @@
 
 
 test1:!
-[alt text](image-1.png)
-
+[alt text](image-1.png)s
 😀💩一样的解法
