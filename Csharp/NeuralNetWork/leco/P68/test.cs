@@ -1,4 +1,4 @@
-public class Solution
+public class SolutionP68
 {
     public IList<string> FullJustify(string[] words, int maxWidth)
     {
