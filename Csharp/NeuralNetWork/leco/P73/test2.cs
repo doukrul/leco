@@ -1,4 +1,4 @@
-public class SolutionP73test2s
+public class SolutionP73test2
 {
     public void SetZeroes(int[][] matrix)
     {
