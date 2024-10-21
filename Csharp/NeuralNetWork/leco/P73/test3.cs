@@ -37,38 +37,48 @@ public class SolutionP73test3
             {
                 if (matrix[i][j] == 0)
                 {
-                    matrix[i][0]=matrix[0][j]=0;
+                    matrix[i][0] = matrix[0][j] = 0;
                 }
             }
         }
 
-        for(int i = 0;i<matrix.Length;i++){
-            if(matrix[i][0]==0){
-                for(int j=0;j<matrix[i].Length;j++){
+        for (int i = 1; i < matrix.Length; i++)
+        {
+            if (matrix[i][0] == 0)
+            {
+                for (int j = 0; j < matrix[i].Length; j++)
+                {
                     //该行全置0
-                    matrix[i][j]=0;
+                    matrix[i][j] = 0;
                 }
             }
         }
-        for(int i = 0;i<matrix[0].Length;i++){
-            if(matrix[0][i]==0){
-                for(int j=0;j<matrix.Length;j++){
+        for (int i = 1; i < matrix[0].Length; i++)
+        {
+            if (matrix[0][i] == 0)
+            {
+                for (int j = 0; j < matrix.Length; j++)
+                {
                     //该列全置0
-                    matrix[j][i]=0;
+                    matrix[j][i] = 0;
                 }
             }
         }
 
         //首行变换
-        if(row0==true){
-            for(int i = 0;i<matrix[0].Length;i++){
-                matrix[0][i]=0;
+        if (row0 == true)
+        {
+            for (int i = 0; i < matrix[0].Length; i++)
+            {
+                matrix[0][i] = 0;
             }
         }
         //首列变换
-        if(col0==true){
-            for(int i = 0;i<matrix.Length;i++){
-                matrix[i][0]=0;
+        if (col0 == true)
+        {
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                matrix[i][0] = 0;
             }
         }
 
