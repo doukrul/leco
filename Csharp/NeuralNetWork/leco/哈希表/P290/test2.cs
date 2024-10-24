@@ -1,6 +1,6 @@
 using System.Text;
 
-public class Solution
+public class SolutionP290test2
 {
     public bool WordPattern(string pattern, string s)
     {
