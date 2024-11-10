@@ -9,14 +9,7 @@
  *     }
  * }
  */
-  public class ListNodeP141 {
-      public int val;
-      public ListNode next;
-      public ListNodeP141(int x) {
-          val = x;
-          next = null;
-      }
-  }
+
 
 public class SolutionP141test1
 {
