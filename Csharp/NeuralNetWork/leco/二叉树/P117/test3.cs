@@ -26,15 +26,24 @@ public class SolutionP117test3 {
         if(root==null){
             return null;
         }
-        
+        Node cur=root;
         while(cur!=null){
-            Node 
+            Node dummy=new Node(0);
+            Node temp=dummy;
+
             while(cur!=null){
-
+                if(cur.left!=null){
+                    temp.next=cur.left;
+                    temp=temp.next;
+                }
+                if(cur.right!=null){
+                    temp.next=cur.right;
+                    temp=temp.next;
+                }
+                cur=cur.next;
             }
-
+            cur=dummy.next;
         }
         return root;
     }
-
 }
