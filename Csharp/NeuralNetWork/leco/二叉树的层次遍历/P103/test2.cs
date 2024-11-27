@@ -11,7 +11,7 @@
  *     }
  * }
  */
-public class SolutionP103test1
+public class SolutionP103test2
 {
     public IList<IList<int>> ZigzagLevelOrder(TreeNode root)
     {
