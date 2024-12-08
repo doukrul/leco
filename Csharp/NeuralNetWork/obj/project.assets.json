@@ -70,7 +70,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2333\\.nuget\\packages\\": {}
+    "C:\\Users\\2333\\.nuget\\packages\\": {},
+    "D:\\vs SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -81,8 +82,12 @@
       "packagesPath": "C:\\Users\\2333\\.nuget\\packages\\",
       "outputPath": "F:\\vsc_project\\csharp\\c#\\Csharp\\NeuralNetWork\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\vs SDK\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\2333\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -90,6 +95,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -102,7 +108,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -127,15 +139,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.3, 7.0.3]"
+            "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.3, 7.0.3]"
+            "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.3, 7.0.3]"
+            "version": "[7.0.20, 7.0.20]"
           }
         ],
         "frameworkReferences": {
@@ -143,7 +155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

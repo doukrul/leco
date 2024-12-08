@@ -1,18 +1,18 @@
 
 
-public class Node {
+public class Node2 {
     public int val;
-    public Node left;
-    public Node right;
-    public Node next;
+    public Node2 left;
+    public Node2 right;
+    public Node2 next;
 
-    public Node() {}
+    public Node2() {}
 
-    public Node(int _val) {
+    public Node2(int _val) {
         val = _val;
     }
 
-    public Node(int _val, Node _left, Node _right, Node _next) {
+    public Node2(int _val, Node2 _left, Node2 _right, Node2 _next) {
         val = _val;
         left = _left;
         right = _right;
@@ -22,14 +22,14 @@ public class Node {
 
 
 public class SolutionP117test1 {
-    public Node Connect(Node root) {
+    public Node2 Connect(Node2 root) {
         if(root==null){
             return null;
         }
         root.next=null;
-        Node levelstart=root;
+        Node2 levelstart=root;
         while(levelstart!=null){
-            Node cur=levelstart;
+            Node2 cur=levelstart;
             while(cur!=null){
                 if(cur.left!=null){
                     if(cur.right!=null){
@@ -48,7 +48,7 @@ public class SolutionP117test1 {
         }
         return root;
     }
-    private Node getnextnode(Node node){
+    private Node2 getnextnode(Node2 node){
         while(node!=null){
             if(node.left!=null){
                 return node.left;
